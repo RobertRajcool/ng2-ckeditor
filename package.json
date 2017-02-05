@@ -1,30 +1,58 @@
 {
-  "name": "ng2-ckeditor",
-  "version": "1.1.5",
-  "description": "Angular2 CKEditor component",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "node_modules/.bin/ngc -p tsconfig-aot.json"
-  },
-  "keywords": [
-    "angular",
-    "angular2",
-    "component",
-    "ckeditor",
-    "wysiwyg"
+  "_args": [
+    [
+      {
+        "raw": "ng2-ckeditor",
+        "scope": null,
+        "escapedName": "ng2-ckeditor",
+        "name": "ng2-ckeditor",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/robert/Projects/ServerProjects/fireports/web"
+    ]
   ],
-  "author": "Simon Babay",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chymz/ng2-ckeditor.git"
+  "_from": "ng2-ckeditor@latest",
+  "_id": "ng2-ckeditor@1.1.5",
+  "_inCache": true,
+  "_location": "/ng2-ckeditor",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ng2-ckeditor-1.1.5.tgz_1479670695886_0.7023679534904659"
+  },
+  "_npmUser": {
+    "name": "chymz",
+    "email": "simon@babay.fr"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ng2-ckeditor",
+    "scope": null,
+    "escapedName": "ng2-ckeditor",
+    "name": "ng2-ckeditor",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-ckeditor/-/ng2-ckeditor-1.1.5.tgz",
+  "_shasum": "b2c57f73b3b51bffb5e0dc668beeed049e4add4d",
+  "_shrinkwrap": null,
+  "_spec": "ng2-ckeditor",
+  "_where": "/home/robert/Projects/ServerProjects/fireports/web",
+  "author": {
+    "name": "Simon Babay"
   },
   "bugs": {
     "url": "https://github.com/chymz/ng2-ckeditor/issues"
   },
-  "homepage": "https://github.com/chymz/ng2-ckeditor#readme",
+  "dependencies": {},
+  "description": "Angular2 CKEditor component",
   "devDependencies": {
     "@angular/common": "^2.1.0",
     "@angular/compiler": "^2.1.0",
@@ -40,10 +68,44 @@
     "typescript": "^2.0.3",
     "zone.js": "^0.6.26"
   },
+  "directories": {},
+  "dist": {
+    "shasum": "b2c57f73b3b51bffb5e0dc668beeed049e4add4d",
+    "tarball": "https://registry.npmjs.org/ng2-ckeditor/-/ng2-ckeditor-1.1.5.tgz"
+  },
+  "gitHead": "5ee7174bb2faf56d676be6358673818b6b88a9ce",
+  "homepage": "https://github.com/chymz/ng2-ckeditor#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "component",
+    "ckeditor",
+    "wysiwyg"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "chymz",
+      "email": "simon@babay.fr"
+    }
+  ],
+  "name": "ng2-ckeditor",
+  "optionalDependencies": {},
   "peerDependencies": {
     "@angular/core": "^2.1.0",
     "@angular/forms": "^2.1.0",
     "@angular/common": "^2.1.0"
   },
-  "dependencies": { }
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chymz/ng2-ckeditor.git"
+  },
+  "scripts": {
+    "build": "ngc -p tsconfig-aot.json",
+    "prepublish": "npm run build"
+  },
+  "typings": "lib/index.d.ts",
+  "version": "1.1.5"
 }
